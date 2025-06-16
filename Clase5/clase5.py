@@ -16,7 +16,7 @@ def enumerar_elementos(lista):
 # 3. Funciones lambda
 # ----------------------------------
 # Básico 1: función doble
-def funcio_doble(lista):
+def funcion_doble(lista):
     f=lambda x: x * 2
     return [f(i) for i in lista]
 
